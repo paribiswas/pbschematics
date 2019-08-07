@@ -1,4 +1,23 @@
-variable "datacenter" {
-  type        = "string"
-  description = "The data center that you want to deploy your Kubernetes cluster in."
+variable "space" {
+  default = "Dev"
+}
+
+variable "org" {
+  default = "myorg"
+}
+
+variable "service" {
+  default = "speech_to_text"
+}
+
+variable "plan" {
+  default = "lite"
+}
+
+variable "service_instance_name" {
+  default = "mycloudantdb"
+}
+
+variable "service_key_name" {
+  default = "mycloudantdbkey"
 }
