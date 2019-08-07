@@ -1,5 +1,6 @@
 variable "softlayer_username" {}
 variable "softlayer_api_key" {}
+variable "softlayer_api_key2" {}
 variable "resource_group" {}
 
 provider "ibm" {
